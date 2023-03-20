@@ -1,0 +1,48 @@
+.my_profile {
+    width: 320px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.pro_pic{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 2px solid transparent;
+    background-image: linear-gradient(#fff, #fff),
+    linear-gradient(to right, red 0%,  orange 100%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    cursor: pointer;
+}
+
+
+
+.profile_text {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    margin-left: 12px;
+}
+  
+#profile_id {
+    color: #262626;
+    font-weight: 500;
+}
+  
+#profile_name {
+    color: #8E8E8E;
+    font-weight: 400;
+    margin-top: 2px;
+}
+  
+#blank {
+    flex: 1;
+}
+  
+.profile_change {
+    font-size: 12px;
+    font-weight: 600;
+    color: #0095F6;
+}

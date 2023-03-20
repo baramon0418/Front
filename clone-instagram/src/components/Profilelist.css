@@ -1,0 +1,45 @@
+.profile_list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  
+    margin-top: 8px;
+    margin-bottom: 4px;
+    margin-left: 8px;
+  }
+  
+.profilelist_pic {
+    width: 32px;
+    height: 32px;
+    background-color: rgb(55, 164, 137);
+    border-radius: 100%;
+  }
+  
+.profilelist_id {
+    display: flex;
+    flex-direction: column;
+    margin-left: 12px;
+  }
+  
+#profilelist_idrecomm {
+    font-size: 14px;
+    font-weight: 600;
+    color: #262626;
+    margin-bottom: 4px;
+  }
+  
+#profilelist_subrecomm {
+    font-size: 12px;
+    font-weight: 400;
+    color: #313131;
+  }
+  
+.blank {
+    flex: 1;
+  }
+  
+.profilelist_follow_button {
+    font-size: 12px;
+    font-weight: 600;
+    color: #0095F6;
+  }

@@ -1,0 +1,184 @@
+.post{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.post_bar{
+    display: flex;
+}
+
+.post_img{
+    border-radius: 50%;
+    width: 40px;
+    border: 2px solid transparent;
+    background-image: linear-gradient(#fff, #fff),
+    linear-gradient(to right, red 0%,  orange 100%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    cursor: pointer;
+}
+
+
+.post_name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: smaller;
+}
+
+.post_box {
+    background-color: white;
+  
+    border-color: rgba(219, 219, 219, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+  
+    margin-bottom: 12px;
+}
+  
+  .post_head {
+    width: 100%;
+    height: 64px;
+  
+    display: flex;
+    align-items: center;
+  
+    border: 1px;
+    border-color: rgba(219, 219, 219, 1);
+    border-bottom-style: solid;
+  }
+  
+
+
+  .post_body_photo{
+    width: 100%;
+    height: 472px;
+
+  }
+  
+  .post_icon {
+    display: flex;
+    align-items: center;
+  }
+  
+  #heart_button {
+    font-size: 26px;
+    padding: 8px;
+    color: #262626;
+  }
+  
+  #heart_button:hover {
+    color: rgba(170, 170, 170, 1);
+  }
+  
+  #chat_button {
+    font-size: 24px;
+    rotate: deg;
+    padding: 8px;
+    color: #262626;
+  }
+  
+  #chat_button:hover {
+    color: rgba(170, 170, 170, 1);
+  }
+  
+  #send_button {
+    font-size: 22px;
+    padding: 8px;
+    color: #262626;
+  }
+  
+  #send_button:hover {
+    color: rgba(170, 170, 170, 1);
+  }
+  
+  #blank {
+    flex: 1;
+  }
+  
+  #bookmark_button {
+    font-size: 24px;
+    padding: 8px;
+    color: #262626;
+  }
+  
+  #bookmark_button:hover {
+    color: rgba(170, 170, 170, 1);
+  }
+  
+  .post_like_text {
+    margin-top: 4px;
+    margin-left: 12px;
+  }
+  
+  .post_like_text a {
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #262626;
+  }
+  
+  .post_text {
+    padding-top: 8px;
+    padding-left: 12px;
+  }
+  
+  .post_comm {
+    padding-top: 8px;
+    padding-left: 12px;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(142, 142, 142, 1);
+  }
+  
+  .post_date {
+    padding-top: 12px;
+    padding-left: 12px;
+    padding-bottom: 12px;
+    font-size: 10px;
+    font-weight: 400;
+    color: rgba(142, 142, 142, 1);
+  
+    border: 1px;
+    border-color: rgba(239, 239, 239, 1);
+    border-bottom-style: solid;
+  }
+  
+  .post_reaction {
+    display: flex;
+  }
+  
+  #reaction {
+    margin: 8px;
+    font-size: 28px;
+  }
+  
+  #reaction_text {
+    width: 90%;
+    border: none;
+  }
+  
+  #reaction_text:focus {
+    outline: none;
+  }
+  
+  #reaction_text::placeholder {
+    color: rgba(148, 148, 148, 1);
+  }
+  
+  #post_button {
+    width: 10%;
+    text-align: center;
+    margin-top: 13px;
+    margin-right: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(179, 219, 255, 1);
+  }
+  
+  #post_button:hover {
+    color:rgba(30, 163, 247, 1)
+  }
