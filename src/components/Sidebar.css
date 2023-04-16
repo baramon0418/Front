@@ -1,0 +1,152 @@
+.side {
+    display: block;
+    width: 240px;
+    height: 100vh;
+    border-right:1px solid rgba(0, 0, 0, 0.15);
+    background-color: rgba(255, 255, 255, 1);
+    position: fixed;
+  }
+  
+  .logo {
+    width: 100%;
+    height: 108px;
+    display: flex;
+    align-items: center;
+    padding-left: 22px;
+  }
+  
+  #sidelogo {
+    width: 108px;
+  }
+  
+  .side_list {
+    width: 336px;
+    display: block;
+    align-items: center;
+    list-style: none;
+    font-size: 16px;
+  }
+  
+  .side_list li {
+    height: 64px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .side_home {
+    margin-left: 10px;
+    margin-right: 20px;
+  }
+  
+  .side_home a {
+    padding: 16px 240px 16px 10px;
+    border-radius: 100px;
+  }
+  
+  #home_icon {
+    font-size: 20px;
+    margin-right: 16px;
+    vertical-align: sub;
+  }
+  
+  .side_search {
+    margin-left: 10px;
+    margin-right: 20px;
+  }
+  
+  .side_search a {
+    padding: 12px 224px 12px 10px;
+    border-radius: 100px;
+  }
+  
+  #search_icon {
+    font-size: 24px;
+    margin-right: 16px;
+    vertical-align: sub;
+  }
+  
+  .side_look {
+    margin-left: 10px;
+    margin-right: 20px;
+  }
+  
+  .side_look a {
+    padding: 12px 200px 12px 10px;
+    border-radius: 100px;
+  }
+  
+  #look_icon {
+    font-size: 24px;
+    margin-right: 16px;
+    vertical-align: sub;
+  }
+  
+  .side_message {
+    margin-left: 10px;
+    margin-right: 20px;
+  }
+  
+  .side_message a {
+    padding: 12px 200px 12px 10px;
+    border-radius: 100px;
+  }
+  
+  #message_icon {
+    font-size: 24px;
+    margin-right: 16px;
+    vertical-align: sub;
+  }
+  
+  .side_Noti {
+    margin-left: 10px;
+    margin-right: 20px;
+  }
+  
+  .side_Noti a {
+    padding: 12px 200px 12px 10px;
+    border-radius: 100px;
+  }
+  
+  #Noti_icon {
+    font-size: 24px;
+    margin-right: 16px;
+    vertical-align: sub;
+  }
+  
+  .side_make {
+    margin-left: 10px;
+    margin-right: 20px;
+  }
+  
+  .side_make a {
+    padding: 12px 200px 12px 10px;
+    border-radius: 100px;
+  }
+  
+  #make_icon {
+    font-size: 24px;
+    margin-right: 16px;
+    vertical-align: sub;
+  }
+  
+  .side_more {
+    margin-left: 10px;
+    margin-right: 20px;
+  }
+  
+  .side_more a {
+    padding: 12px 200px 12px 10px;
+    border-radius: 100px;
+  }
+  
+  #more_icon {
+    font-size: 24px;
+    margin-right: 16px;
+    vertical-align: sub;
+  }
+
+  .side_list li a {
+    align-items: center;
+    color: black;
+    text-decoration: none;
+  }

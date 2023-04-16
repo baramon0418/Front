@@ -1,0 +1,109 @@
+.login_page {
+    width: 100vw;
+    height: 100vh;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    background-color: rgba(250, 250, 250, 1);
+  }
+  
+  .sign_up {
+    width: 350px;
+    height: 70px;
+    margin-top: 12px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(219, 219, 219, 1);
+    background-color: #FFFFFF;
+  
+    font-size: 14px;
+    font-weight: 400;
+  }
+  
+  #sign_up_link {
+    margin-left: 4px;
+    color: #0095F6;
+    font-weight: 600;
+  }
+  
+  #sign_up_link a {
+    text-decoration: none;
+    color: inherit
+  }
+  
+  .download_guide {
+    width: 310px;
+    height: 50px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .download_img {
+    width: 350px;
+    height: 70px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  
+  }
+
+  .AppStore{
+    width: 134.28px;
+    height: 40px;
+    margin-right: 8px;
+  }
+  .GooglePlay{
+    width: 124.76px;
+    height: 40px;
+  }
+  
+  .link_meta {
+    display: flex;
+    flex-direction: row;
+  
+    font-size: 12px;
+    font-weight: 400;
+    color: #8E8E8E;
+  }
+  
+  .link_meta a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  #link_meta_style {
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-top: 20px;
+  }
+  
+  #link_meta_style:hover {
+    text-decoration: underline;
+  }
+
+  .copyright {
+    margin-top: 20px;
+    color: #C7C7C7;
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+
+
